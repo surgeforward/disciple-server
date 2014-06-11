@@ -1,0 +1,52 @@
+{
+  "name": "disciple.js-server",
+  "version": "0.0.1",
+  "description": "Socket.io based nodejs server for managing disciple-client, disciple-console, and disciple-ui connections.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surgeforward/disciple-server.git"
+  },
+  "keywords": [
+    "mlearn.js",
+    "machine",
+    "learning",
+    "knn",
+    "algorithms",
+    "model",
+    "regression",
+    "classification",
+    "classifier",
+    "regressor",
+    "disciple",
+    "learning",
+    "ai",
+    "artificial",
+    "intelligence",
+    "real",
+    "time",
+    "monitoring",
+    "server"
+  ],
+  "author": "Surge, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surgeforward/disciple-server/issues"
+  },
+  "homepage": "https://github.com/surgeforward/disciple-server",
+  "dependencies": {
+    "socket.io": "~1.0.4",
+    "socket.io-client": "^1.0.4",
+    "lodash": "^2.4.1",
+    "jsonic": "^0.1.1",
+    "mlearn": "git://github.com/surgeforward/mlearn.js",
+    "commander": "^2.2.0",
+    "waterline": "~0.9.16",
+    "sails-mongo": "~0.9.8",
+    "util-extend": "~1.0.1",
+    "express": "~4.4.2"
+  }
+}
